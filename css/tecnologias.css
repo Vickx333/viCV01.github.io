@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap');
+
+:root {
+     --fuentecursiva: 'Rajdhani', sans-serif;
+}
+
+.gridContainer {
+     width: 73%;
+     height: max-content;
+     /* border: 2px solid red; */
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin: 5% auto;
+     backdrop-filter: blur(2px);
+     z-index: 999999;
+     border-radius: 30px;
+     padding: 10px;
+     gap: 30px;
+
+}
+
+.griditem {
+     width: max-content;
+     height: max-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     filter: grayscale(7) opacity(.5);
+     transform: scale(.8);
+     transition: all .3s ease;
+     z-index: 9999;
+     /* border: 1px solid red; */
+     padding: 5px;
+}
+
+.griditem:hover {
+     filter: none;
+
+     filter: drop-shadow(2px 2px 6px rgba(255, 0, 0, 0.47));
+     transition: all .3s ease;
+     transform: scale(1.2);
+
+     /* background-size: ; */
+
+}
+
+.infotec {
+     width: 80%;
+     /* border: 1px solid red; */
+     margin: 30px auto;
+     backdrop-filter: blur(2px);
+     border-radius: 20px;
+     color: rgba(2, 208, 198, 0.729);
+}
+
+@keyframes latido {
+     0% {
+          opacity: 1;
+     }
+
+     40%,
+     50% {
+          transform: scale(1.2);
+          opacity: .7;
+     }
+
+     70%,
+     80% {
+          transform: scale(1);
+          opacity: .5;
+     }
+
+     100% {
+          transform: scale(1);
+
+     }
+}
+
+.ilustratorimg {
+     transform: scale(2);
+     margin-top: 5px;
+}
+
+.nombreTec {
+     font-family: var(--fuenteNombre);
+     font-size: 2.4rem;
+}
+
+.description {
+     font-family: var(--fuentecursiva);
+     font-size: 24px;
+}

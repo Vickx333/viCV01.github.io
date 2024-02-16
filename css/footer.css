@@ -1,0 +1,10 @@
+footer {
+     width: 100px;
+     height: 95%;
+     margin: auto;
+     /* background-color: black; */
+     /* border: 2px solid red; */
+     border-radius: 10px 0px 0px 10px;
+     border-left: 1px solid red;
+     box-shadow: -40px 2px 62px 0px rgba(255, 0, 0, 0.451);
+}

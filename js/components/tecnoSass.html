@@ -1,0 +1,101 @@
+<style>
+     .titulo {
+          color: rgb(240, 92, 117);
+     }
+
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          /* color: blue; */
+     }
+
+     .imgtecno {
+          display: flex;
+          justify-content: center;
+          transition: all .3s ease-in;
+          align-items: center;
+          animation: entradacode 1s ease;
+          transform-origin: center;
+          /* border: 2px solid red; */
+
+     }
+
+     @keyframes entradacode {
+          from {
+               opacity: 0;
+               transform: scale(0) rotate(-360deg);
+          }
+
+          to {
+               opacity: 1;
+               transform: scale(1) rotate(0);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .div {
+          display: flex;
+     }
+
+     .imgtecno {
+          width: 100px;
+     }
+
+     .description {
+          padding: 30px;
+     }
+</style>
+<div class="tecnoBlock">
+     <h2 class="titulo nombreTec">SASS css</h2>
+     <div class="div">
+
+
+          <p class="description"> Con sólidos conocimientos en SASS, optimizo la eficiencia en la escritura de estilos
+               mediante variables, anidamientos y funciones. Capacitado para crear estilos reutilizables y mantener un
+               código CSS organizado. Aunque mis conocimientos son básicos, comprendo la compilación de archivos SASS en
+               CSS estándar, utilizando herramientas de línea de comandos o automatización con Gulp o Grunt. Esta
+               habilidad agiliza el desarrollo y facilita la gestión de estilos en proyectos CSS de gran envergadura.
+          </p>
+          <img class="imgtecno" src="https://ikastaroak.ulhi.net/edu/es/DAW/DIW/DIW04/es_DAW_DIW04_Contenidos/sass.svg"
+               alt="imagencodigo">
+     </div>
+
+</div>

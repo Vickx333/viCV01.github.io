@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* border: 1px solid greecnyellow; */
+     /* --fuentecursiva: 'Rajdhani', sans-serif; */
+}
+
+:root {
+     --colorPrimary: #30391f;
+     --colorSecondary: #668a4c;
+     --colorDarck: #302f2f;
+     --colorLight: #ffffff;
+     --fuenteNombre: 'Bebas Neue', sans-serif;
+
+}
+
+body {
+     /* background-color: var(--colorDark); */
+     height: 100vh;
+     display: flex;
+     justify-content: space-around;
+     padding: 10px 30px;
+     /* background-color: var(--colorDarck); */
+     background-color: rgb(1, 7, 31);
+     /* background-image: linear-gradient(90deg, rgba(12, 18, 17, 0.433), 10%, rgb(1, 7, 31)); */
+     color: var(--colorLight);
+     overflow: hidden;
+
+
+
+
+}
+
+.container {
+     width: 50%;
+     height: 100vh;
+     /* border: 2px solid red; */
+     padding: 40px;
+     margin: auto;
+     /* overflow: hidden; */
+     position: relative;
+
+}
+
+#container1 {
+     width: 30%;
+     height: max-content;
+     /* border: 2px solid red; */
+     backdrop-filter: blur(2px);
+     box-shadow: 7px 6px 12px o px black;
+
+     /* background-color: rgba(255, 217, 0, 0.034); */
+     /* border-radius: 200px;
+     box-shadow: 6px 0px 20px 1px rgba(0, 0, 0, 0.492), inset 5px 5px 15px 1px rgba(116, 116, 116, 0.359); */
+}
+
+#container2 {
+     width: 60%;
+     overflow: scroll;
+     /* background-color: darkblue; */
+     backdrop-filter: blur(3px);
+     border-radius: 10px;
+
+
+}
+
+.navbar {
+     background-color: recd;
+     /* overflow: hidden; */
+     height: 90%;
+}
+
+
+.buttonsNav {
+     width: 100%;
+     height: 70px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     /* border: 1px solid blue; */
+
+}
+
+.buttonnav {
+     border: 2px groove rgb(121, 233, 210);
+     padding: 5px 10px;
+     border-radius: 100px;
+     background-color: transparent;
+     color: whitesmoke;
+     transition: box-shadow .3s ease;
+     font-family: var(--fuentecursiva);
+     font-size: 1.2rem;
+}
+
+.buttonnav:hover {
+     box-shadow: 0px 0px 12px 0px rgba(12, 183, 172, 0.575), inset 0px 0px 2px 6px rgba(12, 183, 172, 0.454);
+}
+
+
+
+
+.data01 {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+
+.nombre {
+     width: 100%;
+     text-align: center;
+     font-size: 3rem;
+     margin-top: 20px;
+     color: var(--colorLight);
+     font-family: var(--fuenteNombre);
+     padding: 20px 10px;
+     /* background-color: red; */
+     text-shadow: 10px 6px 12px black;
+}
+
+.buttonemail {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     /* border: 1px solid red; */
+     padding: 5px;
+     margin-top: 30px;
+}
+
+.buttonemail button {
+     width: 70%;
+     padding: 20px;
+     border-radius: 100px;
+     border: 2px groove rgb(138, 238, 236);
+     background-color: transparent;
+     color: aqua;
+     font-size: 1.3rem;
+     font-weight: 900;
+     font-family: var(--fuentecursiva);
+}
+
+.buttonemail button:hover {
+     box-shadow: 0px 0px 12px 1px rgba(12, 183, 172, 0.575), inset 0px 0px 2px 6px rgba(12, 183, 172, 0.454);
+
+
+}
+
+
+/* footer style */
+
+.footer {
+     /* background-color: red; */
+     padding: 25px;
+     right: 0;
+     position: absolute;
+     height: 100%;
+     top: 0;
+     width: 1%;
+     transition: width .4s ease-in-out;
+     filter: grayscale(3);
+}
+
+footer:hover {
+     width: 150px;
+     filter: grayscale(0);
+}
+
+.buttonFooter {
+     transform: scale(0);
+     transition: transform .6s ease-out;
+}
+
+.footer:hover .buttonFooter {
+     transform: scale(1);
+}
+
+.itemFooter {
+     width: 98%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     /* background-color: whitesmoke; */
+}
+
+
+
+/* 1breack point */
+
+@media screen and (max-width:900px) {
+     body {
+          flex-direction: column;
+          height: 300vh;
+          overflow: scroll;
+     }
+
+     .navbar {
+          width: max-content;
+     }
+
+     .buttonsNav {
+          width: max-content;
+
+     }
+
+     .container {
+          width: 100%;
+          padding: 10px;
+     }
+
+     #container1 {
+          width: 100%;
+     }
+
+     #container2 {
+          width: 100%;
+          overflow: visible;
+
+     }
+
+     #formulario {
+          background-color: red;
+          width: 100%;
+     }
+
+     .redes {
+          border: 2px solid red;
+          display: none;
+          justify-content: center;
+          align-items: center;
+
+     }
+
+     .redes ul {
+          width: 50%;
+          margin: 0 auto;
+          border: 2px solid green;
+          position: static;
+     }
+
+
+
+     /* .footer {
+          position: absolute;
+          width: 100%;
+          height: 70px;
+          background-color: black;
+          bottom: -95%;
+
+
+     } */
+
+     .itemFooter {
+          flex-direction: row;
+     }
+
+
+
+}
+
+.presentacion {
+     width: 70%;
+     height: 700px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+.presentacion p {
+     text-align: justify;
+
+     color: var(--colorLight);
+}
+
+.prenom {
+     font-size: 3rem;
+     color: rgb(121, 233, 210);
+     position: relative;
+     left: -100%;
+}
+
+
+.pretext {
+     backdrop-filter: blur(5px);
+     font-size: 1.3rem;
+     padding: 10px;
+
+}
+
+.titulos {
+     transform-origin: top;
+     animation: entrada2 7s ease;
+
+}
+
+@keyframes entrada2 {
+     from {
+          opacity: 0;
+          /* height: 0; */
+     }
+
+     to {
+          opacity: 1;
+          /* height: max-content; */
+     }
+
+}
+
+#btncontacto {
+     background-color: rgb(29, 186, 24);
+     padding: 10px;
+     border-radius: 20px;
+     color: whitesmoke;
+     font-family: Arial, Helvetica, sans-serif;
+
+}

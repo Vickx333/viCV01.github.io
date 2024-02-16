@@ -1,0 +1,9 @@
+canvas {
+     position: absolute;
+     background-color: transparent;
+     left: 0;
+     top: 0;
+     color: rgb(255, 229, 127);
+     z-index: -999999999;
+     height: 110vh;
+}

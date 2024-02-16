@@ -1,0 +1,37 @@
+.fotoimg {
+     width: 100%;
+     position: relative;
+
+     object-fit: cover;
+     /* box-shadow: 0px 9px 20px 0px black; */
+     /* z-index: -2; */
+     filter: opaccity(.7);
+     animation: opacidad 1s ease-in-out;
+}
+
+.foto {
+     overflow: hidden;
+     width: 330px;
+     height: 330px;
+     border: 1px solid rgb(196, 248, 245);
+     box-shadow: inset 0px 0px 9px 2px rgb(20, 255, 251), 0px 0px 17px 0px rgb(20, 255, 251);
+     /* filter: opacity(.7); */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100%;
+     margin: 10px auto;
+
+
+}
+
+@keyframes opacidad {
+     from {
+          opacity: .1;
+     }
+
+     to {
+          opacity: 1;
+     }
+
+}

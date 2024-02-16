@@ -1,0 +1,80 @@
+<style>
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          color: rgb(245, 52, 142);
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+</style>
+<div class="tecnoblock">
+     <h2 class="titulo nombreTec">indesign</h2>
+     <div class="niveles">
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+     </div>
+     <p class="description"> Con habilidades en Adobe InDesign, líder en maquetación y diseño editorial,
+          destaco por la creación eficiente de diseños profesionales para impresión y medios digitales. Mi dominio
+          incluye herramientas de diseño, gestión de estilos y la integración con otras aplicaciones de Adobe Creative
+          Cloud. También sobresalgo en la creación de documentos interactivos y optimización para diversos formatos de
+          salida.</p>
+     <img class="imgtecno" src="" alt="imagencodigo">
+
+</div>

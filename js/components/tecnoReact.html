@@ -1,0 +1,87 @@
+<style>
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          color: rgb(0, 255, 229);
+     }
+
+
+
+
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .div {
+          display: flex;
+     }
+
+     .description {
+          width: 70%;
+     }
+
+     .imgtecno {
+          width: 70px;
+          height: 70px;
+          animation: rotar 30s ease infinite;
+          animation-timing-function: linear;
+     }
+
+     @keyframes rotar {
+          from {
+               transform: rotate(0);
+          }
+
+          to {
+               transform: rotate(360deg);
+          }
+
+     }
+</style>
+<div class="tecnoBlock">
+     <h2 class="nombreTec">React js</h2>
+     <div class="div">
+          <p class="description"> Especializado en ReactJS, poseo un sólido dominio para el desarrollo de aplicaciones
+               web modernas y escalables. Mi experiencia abarca la implementación de componentes reutilizables, gestión
+               eficiente del estado y la integración en arquitecturas complejas. Destaco por la optimización del
+               rendimiento y la creación de interfaces dinámicas. Mantengo actualizado mi conocimiento en las tendencias
+               y mejores prácticas de ReactJS, incluyendo Hooks, Context API y enrutamiento, para ofrecer experiencias
+               de usuario intuitivas y de alto rendimiento..</p>
+          <img class="imgtecno" src="../css/assets/reactjs.png" alt="imagencodigo">
+     </div>
+</div>

@@ -1,0 +1,152 @@
+.navResponsive {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     /* position: fixed; */
+     transition: all .5s ease;
+     padding: 10px 0;
+
+}
+
+.navFixed {
+     position: fixed;
+     backdrop-filter: blur(5px);
+     box-shadow: 0px 7px 12px 0px black;
+     z-index: 999999999;
+}
+
+.ctaNav {
+     color: whitesmoke;
+     text-decoration: none;
+     font-family: var(--fuentecursiva);
+     font-weight: 900;
+
+
+}
+
+/* heade header header */
+.headerResponsive {
+     width: 100%;
+     height: 300px;
+     /* border: 2px solid red; */
+     position: relative;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: -3;
+
+}
+
+.fotoContainer {
+     position: absolute;
+     bottom: 0;
+     /* border: 2px solid red; */
+     border-radius: 0px 0px 50% 50%;
+     overflow: hidden;
+     box-shadow: inset 0px -12px 15px 0px rgba(84, 207, 195, 0.51);
+
+}
+
+.center {
+     text-align: center;
+}
+
+.nombre001 {
+     position: absolute;
+     bottom: -100px;
+     text-align: center;
+     font-family: var(--fuentecursiva);
+     font-weight: 900;
+     font-size: 2.7rem;
+
+}
+
+.footoperfil {
+     width: 100%;
+
+}
+
+/* carreracontainer */
+.carreraContainer {
+     width: 100%;
+     height: max-content;
+
+     /* border: 2px solid red; */
+     margin-top: 90px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+/* contendor de tecnologias */
+.tecnoContainer {
+     border: 2px solid red;
+     width: 100%;
+     height: max-content;
+     padding: 7px;
+     box-shadow: 0px -9px 12px 0px rgb(8, 7, 7);
+     z-index: 9;
+
+}
+
+.tituloTecno {
+     text-align: center;
+     padding: 9px 4px;
+     font-family: var(--fuentecursiva);
+     font-weight: 900;
+     font-size: 3rem;
+     margin-top: 90px;
+}
+
+.gridContainerResponsive {
+     width: 98%;
+     height: max-content;
+     /* border: 2px solid red; */
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 0 auto;
+     backdrop-filter: blur(2px);
+
+     border-radius: 30px;
+     padding: 10px;
+     gap: 10px;
+     border: 2px solid red;
+
+}
+
+.griditem {
+     width: max-content;
+     height: max-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     filter: grayscale(7) opacity(.5);
+     transform: scale(.8);
+     transition: all .3s ease;
+
+     /* border: 1px solid red; */
+     padding: 5px;
+}
+
+/* ventana emergente tecnologias  */
+
+.infoTecRes {
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     background-color: rgba(255, 0, 0, 0.492);
+     z-index: 9999;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+.btnCerrar {
+     padding: 10px;
+}

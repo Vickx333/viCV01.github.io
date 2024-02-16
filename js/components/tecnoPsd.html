@@ -1,0 +1,150 @@
+<style>
+     .titulo {
+          color: rgb(4, 201, 246);
+          z-index: 1;
+          text-shadow: 9px 9px 12px black;
+     }
+
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          /* color: blue; */
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+          background-color: transparent;
+
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .contentpsd {
+          position: relative;
+          margin-top: 80px;
+     }
+
+     .dispsd {
+          width: 200px;
+          height: 200px;
+          /* border: 2px solid red; */
+          position: absolute;
+          top: -150%;
+          left: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .dispsd img:nth-child(1) {
+          z-index: 0;
+          animation-duration: 90s;
+          animation-direction: reverse;
+          /* animation-delay: 4s; */
+
+     }
+
+     .dispsd img:nth-child(2) {
+          z-index: 2;
+          animation-duration: 90s;
+     }
+
+     .dispsd img:nth-child(3) {
+          z-index: 9;
+          animation-duration: 190s;
+          animation-direction: reverse;
+
+          width: 400px;
+     }
+
+
+     .psdI {
+          position: absolute;
+          width: 100%;
+          animation: rotar 30s ease-in-out infinite;
+          animation-timing-function: linear;
+          filter: drop-shadow(-7px -4px 9px blank);
+     }
+
+     @keyframes rotar {
+          from {
+               transform: rotate(0);
+
+
+
+          }
+
+          to {
+               transform: rotate(360deg);
+          }
+
+     }
+</style>
+<div class="tecnoBlock">
+     <div class="contentpsd">
+          <h2 class="titulo tectitulo nombreTec">Photoshop</h2>
+          <div class="dispsd">
+
+               <img class="psdI" src="../js/components/imgs/imgTecnos/psdimg/psd1.png" alt="dsadasd">
+               <img class="psdI" src="../js/components/imgs/imgTecnos/psdimg/psd2.png" alt="">
+               <img class="psdI" src="../js/components/imgs/imgTecnos/psdimg/psd3.png" alt="">
+               <!-- <img class="psdI" src="../js/components/imgs/imgTecnos/ilustrador/aiCapa4.png" alt=""> -->
+          </div>
+
+     </div>
+     <p class="description"> Experto en Adobe Photoshop, sobresalgo en la creación de composiciones visuales
+          cautivadoras mediante la manipulación avanzada de imágenes. Mi dominio incluye funciones como capas y máscaras
+          para lograr resultados precisos y estéticamente impactantes. También destaco en la creación de gráficos y la
+          optimización de imágenes para diversos propósitos, desde impresión hasta entornos digitales.</p>
+     <img class="imgtecno" src="" alt="imagencodigo">
+
+</div>

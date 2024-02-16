@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458334 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="ikedinIcon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="6.2284906"
+     inkscape:cx="33.635757"
+     inkscape:cy="62.21411"
+     inkscape:window-width="1885"
+     inkscape:window-height="971"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="text8067" />
+  <defs
+     id="defs2">
+    <rect
+       x="20.313486"
+       y="22.160166"
+       width="75.713902"
+       height="66.744311"
+       id="rect8069" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:0.96;fill:none;fill-opacity:1;stroke:#e1e5ff;stroke-width:0.212;stroke-linecap:round;stroke-opacity:0.91452998;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="path1566"
+       sodipodi:type="arc"
+       sodipodi:cx="13.137821"
+       sodipodi:cy="13.315858"
+       sodipodi:rx="12.668722"
+       sodipodi:ry="12.668722"
+       sodipodi:start="0"
+       sodipodi:end="5.9864378"
+       sodipodi:arc-type="arc"
+       d="M 25.806543,13.315858 A 12.668722,12.668722 0 0 1 14.076812,25.949734 12.668722,12.668722 0 0 1 0.60829291,15.188674 12.668722,12.668722 0 0 1 10.341482,0.95960413 12.668722,12.668722 0 0 1 25.252827,9.6113788"
+       sodipodi:open="true" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text">
+    <g
+       aria-label="in"
+       transform="matrix(0.33507303,0,0,0.32884382,0.19145457,-3.3697067)"
+       id="text8067"
+       style="font-size:53.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect8069);opacity:0.96;fill:#2544eb;stroke:none;stroke-width:1.55717;stroke-linecap:round;paint-order:stroke fill markers">
+      <path
+         d="m 24.047784,68.013698 h 6.186663 l 0.08643,-27.378588 -6.273087,-0.08807 z m -0.02161,-31.845874 c 1.383087,1.409287 4.767939,1.521958 6.153573,0.110077 1.385634,-1.411882 1.496065,-4.476756 0.10803,-5.886195 -1.388035,-1.40944 -4.859302,-1.389714 -6.239997,0.02201 -1.380695,1.411729 -1.404693,4.344816 -0.02161,5.754103 z"
+         style="font-weight:bold;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Bold';fill:#ffffff;stroke:none"
+         id="path8380"
+         sodipodi:nodetypes="cccccszzzss" />
+      <path
+         d="m 37.647774,68.013698 h 6.13333 v -21.33332 c 1.653332,-0.8 4.053331,-1.493333 6.186663,-1.493333 3.733331,0 4.639997,1.119999 4.639997,3.893331 v 18.933322 h 6.186663 V 47.640377 c 0,-5.439997 -2.719998,-7.573329 -7.999995,-7.573329 -3.306665,0 -6.666663,1.226666 -9.013328,2.933332 h -0.213333 v -2.453332 h -5.919997 z"
+         style="font-weight:bold;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Bold';fill:#ffffff;stroke:none"
+         id="path8382" />
+    </g>
+  </g>
+</svg>

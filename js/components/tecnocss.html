@@ -1,0 +1,91 @@
+<style>
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          color: rgb(92, 156, 252);
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .div {
+          display: flex;
+     }
+</style>
+
+<div class="tecnoBlock">
+
+     <h2 class="nombreTec">CSS3</h2>
+     <div class="div">
+          <br>
+          <br>
+          <br>
+          <p class="description"> Experto en CSS3 con maestría avanzada, especializado en estilos modernos y
+               responsivos. Competente en selectores y propiedades avanzadas, logrando resultados visuales sofisticados.
+               Habilidad en la creación y mantenimiento de hojas de estilo CSS organizadas y escalables, optimizadas
+               para rendimiento y mantenibilidad. Actualizado en tendencias y mejores prácticas, incluyendo animaciones
+               y flexbox, para garantizar una experiencia de usuario intuitiva en diferentes dispositivos y tamaños de
+               pantalla.</p>
+          <img class="imgtecno" src="../js/components/imgs/codigocss.png" alt="imagencodigo">
+     </div>
+     <canvas id="canvasCss"></canvas>
+
+
+</div>
+<script title="script">
+     console.log('hola')
+
+</script>

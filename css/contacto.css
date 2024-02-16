@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap');
+
+:root {
+     --fuentecursiva: 'Rajdhani', sans-serif;
+     --luzNeonazul: rgb(20, 255, 251);
+
+}
+
+.saludo {
+     text-align: start;
+     font-size: 3rem;
+     font-family: var(--fuentecursiva);
+     font-weight: 700;
+
+}
+
+.mandacarta {
+     font-family: var(--fuentecursiva);
+     font-size: 1.5rem;
+}
+
+/* iconos de redes */
+.redes {
+     width: 100%;
+     /* background-color: blue; */
+     height: 100px;
+     /* border: 2px solid red; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     /* border: 2px solid rgb(0, 255, 17); */
+}
+
+/* .aro {
+     filter: drop-shadow(0px 0px 15px rgb(219, 219, 232) inset 0px 0px 15px gold);
+     /*  */
+
+
+*/ .intext {
+     filter: drop-shadow(0px 0px 20px rgb(200, 229, 247));
+}
+
+.redes ul li {
+
+     display: inline-block;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.inkedin {
+     width: 80px;
+     display: inline-block;
+     position: absolute;
+     left: 0;
+     /* border: 1px solid greenyellow; */
+
+}
+
+.redes ul {
+     width: 100%;
+     height: 100%;
+     /* border: 2px solid red; */
+     display: flex;
+     justify-content: start;
+     gap: 120px;
+     align-items: center start;
+}
+
+.redes ul li {
+     width: max-content;
+     height: max-content;
+}
+
+.ctaicon {
+     width: max-content;
+     height: max-content;
+     /* border: 1px solid gold; */
+     color: white;
+     transform-origin: center;
+     transition: all .3s ease;
+
+}
+
+
+
+.ctaicon:hover {
+     transform: scale(1.7);
+     transform-origin: center;
+     /* filter: drop-shadow(-30px 6px 20px rgba(0, 0, 0, 0.544)); */
+}
+
+.ctaicon:hover .vuelta {
+     filter: none;
+}
+
+.vuelta {
+     animation: rotacion 60s ease infinite;
+     animation-timing-function: linear;
+     animation-timing-function: steps(60);
+     filter: contrast(.7);
+}
+
+.vuelta2 {
+     animation-direction: reverse;
+}
+
+
+
+
+
+@keyframes rotacion {
+     from {
+          transform: rotate(0);
+     }
+
+     to {
+          transform: rotate(360deg);
+     }
+
+}
+
+/* #######################c */
+
+/* formulario formulario */
+
+
+.formulario {
+     /* background-color: red; */
+     width: 60%;
+     padding: 10px;
+
+}
+
+.ncarta {
+     color: whitesmoke;
+     font-size: 2.5rem;
+     font-family: var(--fuentecursiva);
+     /* background-color: rgb(247, 127, 22); */
+     padding: 10px 20px;
+     text-align: start;
+     border-radius: 10px;
+     border: 1px solid whitesmoke;
+     box-shadow: 0px 0px 17px 1px orangered, inset 0px 0px ;
+
+}
+
+.formulario {
+
+     width: 70%;
+     /* background-color: red; */
+     background-color: rgba(6, 143, 141, 0.169);
+     border-radius: 10px;
+
+}
+
+.formulario input {
+     border: none;
+     padding: 10px 5px;
+     color: rgb(8, 121, 119);
+     font-size: 1.1rem;
+}
+
+.nomNum {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+textarea {
+     width: 100%;
+     resize: none;
+}

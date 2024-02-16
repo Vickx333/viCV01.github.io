@@ -1,0 +1,81 @@
+<style>
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          color: gold;
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+
+     }
+
+     .description {
+          width: 70%;
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .div {
+          display: flex;
+     }
+</style>
+<div class="tecnoBlock">
+     <h2 class="nombreTec">JavaScript</h2>
+     <div class="div">
+          <p class="description"> Experto en JavaScript, manejo el DOM para experiencias interactivas. Especializado en
+               ReactJS, desarrollo aplicaciones web modernas y escalables mediante su arquitectura basada en componentes
+               y enfoque declarativo. Amplia competencia en frameworks y bibliotecas de JavaScript, garantizando
+               prácticas de programación sólidas y actualizaciones dinámicas de elementos HTML.</p>
+          <img class="imgtecno" src="../js/components/imgs/codigojs.png" alt="imagencodigo">
+     </div>
+</div>

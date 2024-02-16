@@ -1,0 +1,92 @@
+<style>
+     .titulo {
+          color: rgb(159, 159, 159);
+     }
+
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+          text-shadow: 0px 0px 5px rgba(245, 245, 245, 0.404);
+
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+</style>
+<div class="tecnoBlock">
+     <h2 class="titulo nombreTec">MacOS</h2>
+     <div class="niveles">
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+          <span class="nivel"></span>
+     </div>
+     <p class="description"> Amplio conocimiento y experiencia en el sistema operativo macOS, el sistema operativo
+          desarrollado
+          por Apple para sus dispositivos Mac. Competencia en la navegación y uso eficiente de la interfaz de usuario de
+          macOS, incluyendo la barra de menú, el Dock, el Finder y las preferencias del sistema. Capacidad para realizar
+          tareas comunes, como la gestión de archivos y carpetas, la instalación y desinstalación de aplicaciones, la
+          configuración de opciones de accesibilidad y la personalización del entorno de trabajo. Conocimiento en el uso
+          de aplicaciones y herramientas nativas de macOS, como Safari, Mail, Pages, Keynote y Numbers, así como la
+          integración con servicios en la nube como iCloud. Familiaridad con la Terminal de macOS y el uso de comandos
+          de línea de comandos para tareas de administración y configuración avanzadas. Conocimiento en cómo mantener y
+          actualizar el sistema operativo, así como la solución de problemas comunes que puedan surgir en macOS. El
+          conocimiento en macOS es esencial para aprovechar al máximo las funcionalidades y herramientas proporcionadas
+          por Apple en entornos de desarrollo, productividad y entretenimiento.</p>
+     <img class="imgtecno" src="" alt="imagencodigo">
+
+</div>

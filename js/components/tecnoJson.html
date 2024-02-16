@@ -1,0 +1,111 @@
+<style>
+     .titulo {
+          color: rgb(20, 38, 232);
+     }
+
+     .titulo span {
+          color: gold;
+     }
+
+     .nombreTec {
+          animation: bounce .6s ease;
+          transition: all 1s ease;
+          animation-timing-function: linear;
+          font-size: 2.5rem;
+
+     }
+
+     .imgtecno {
+
+          animation: entradacode 1s ease;
+          transform-origin: top;
+
+     }
+
+     @keyframes entradacode {
+          from {
+               transform: scaleY(0);
+          }
+
+          to {
+               transform: scaleY(1);
+          }
+
+     }
+
+     @keyframes bounce {
+          0% {
+               transform: translateX(100%);
+          }
+
+          30% {
+               transform: translateX(-10px) scaleY(.8);
+          }
+
+          65% {
+               transform: translateX(-20px);
+          }
+
+          75% {
+               transform: translateX(5px);
+          }
+
+
+
+          95% {
+               transform: translateX(10px);
+          }
+
+
+
+          100% {
+               transform: translateX(0);
+          }
+     }
+
+     .tecnoBlock {
+          display: flex;
+          flex-direction: column;
+
+     }
+
+     .div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .imgtecno {
+          width: 100px;
+          height: 100px;
+     }
+
+     .description {
+          padding: 30px;
+     }
+</style>
+<div class="tecnoBlock">
+     <h2 class="titulo nombreTec"><span>{</span>JSON<span>}</span></h2>
+     <div class="div">
+
+
+          <p class="description"> Amplio conocimiento en JSON, un formato ligero de intercambio de datos ampliamente
+               utilizado en
+               aplicaciones web y servicios API. Experiencia en la creación, lectura y manipulación de objetos y
+               estructuras
+               de datos en formato JSON. Competencia en la sintaxis de JSON, incluyendo la definición de pares
+               clave-valor,
+               el uso de arrays y la anidación de objetos. Capacidad para serializar y deserializar datos JSON,
+               convirtiéndolos entre su representación en formato JSON y objetos en lenguajes de programación como
+               JavaScript. Conocimiento en cómo utilizar JSON para enviar y recibir datos en solicitudes HTTP, ya sea a
+               través de llamadas AJAX o API RESTful. Familiaridad con las herramientas y bibliotecas que facilitan la
+               manipulación y validación de datos JSON, como JSON.parse(), JSON.stringify() y bibliotecas como JSON.NET
+               en
+               entornos de desarrollo específicos. Los conocimientos en JSON son fundamentales para el intercambio de
+               datos
+               estructurados entre sistemas y el consumo de APIs en aplicaciones web y móviles.</p>
+          <!-- <img class="imgtecno"
+               src="https://play-lh.googleusercontent.com/wZnt7CSubAGElIgQjmVAoYhahYANB4Szx4diSzK6aQkuBPmpNXOUSJF0Px8rNWg4buvQ"
+               alt="imagencodigo"> -->
+     </div>
+</div>
